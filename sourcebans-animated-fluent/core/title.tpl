@@ -17,14 +17,5 @@
 </div>
 <div id="dialog-placement-background" class="popup popup_background" onclick="closeMsg('');"></div>
 
-<div class="page_header">
-    <h1>{$title}</h1>
-</div>
-
-<div class="breadcrumb">
-    {foreach from=$breadcrumb item="crumb"}
-        <i class="fas fa-angle-right"></i> <a href="{$crumb.url}">{$crumb.title}</a>
-    {/foreach}
-</div>
 
 <!-- <div id="content"> -->

@@ -3,12 +3,12 @@
 	</main>
 	<footer class="footer">
 	  <div class="layout_container flex flex-jc:space-between flex-ai:center">
-	    <div class="flex flex-fd:column text:left">
-	      <a href="https://sbpp.github.io/" target="_blank" rel="noopener">SourceBans++</a> {$version}{$git}
-	      <span>Powered by <a href="https://www.sourcemod.net" target="_blank" rel="noopener">SourceMod</a></span>
-	    </div>
+
 	    <div class="flex flex-fd:column text:right">
-	      <span>Copyright © heizemod</span>
+	      <a href="https://heizemod.us/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+ 		 <span>Copyright © heizemod</span>
+	    </a>
+
 	    </div>
 	  </div>
 	</footer>
@@ -44,3 +44,26 @@
 	</body>
 
 	</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script src="{$theme_url}particles.js"></script>
+<script>
+particlesJS('particles-js', {
+  particles: {
+    number: { value: 80, density: { enable: true, value_area: 800 }},
+    color: { value: '#BA6F00' },
+    shape: { type: 'circle' },
+    opacity: { value: 0.5, random: false },
+    size: { value: 3, random: true },
+    line_linked: { enable: true, distance: 150, color: '#BA6F00', opacity: 0.4, width: 1 },
+    move: { enable: true, speed: 2, direction: 'none', out_mode: 'out' }
+  },
+  interactivity: {
+    detect_on: 'canvas',
+    events: { onhover: { enable: true, mode: 'grab' }, onclick: { enable: true, mode: 'push' }},
+    modes: { grab: { distance: 140, line_linked: { opacity: 1 }}}
+  },
+  retina_detect: true
+});
+</script>
+

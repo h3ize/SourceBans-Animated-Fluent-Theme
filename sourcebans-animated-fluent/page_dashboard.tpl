@@ -7,54 +7,6 @@
   </div>
 {/if}
 
-<!-- Dashboard Statistics Box -->
-<div class="layout_box padding margin-bottom" style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-  <div class="card-statistics" style="margin: auto; text-align: center;">
-    <h2 class="animated-gradient" style="font-size: 23px;">
-      <i class="fa-solid fa-server" style="margin-right: 5px;"></i> Total Servers: <span id="total-servers">0</span>
-    </h2>
-  </div>
-  <div class="card-statistics" style="margin: auto; text-align: center;">
-    <h2 class="animated-gradient" style="font-size: 23px;">
-      <i class="fa-solid fa-face-angry" style="margin-right: 5px;"></i> Total Bans: {$total_bans}
-    </h2>
-  </div>
-  <div class="card-statistics" style="margin: auto; text-align: center;">
-    <h2 class="animated-gradient" style="font-size: 23px;">
-      <i class="fa-solid fa-volume-xmark" style="margin-right: 5px;"></i> Total Muted: {$total_comms}
-    </h2>
-  </div>
-  <div class="card-statistics" style="margin: auto; text-align: center;">
-    <h2 class="animated-gradient" style="font-size: 23px;">
-      <i class="fa-solid fa-hand" style="margin-right: 5px;"></i> Total Stopped: {$total_blocked}
-    </h2>
-  </div>
-</div>
-
-<script>
-window.onload = function() {
-  const serverRows = document.querySelectorAll('tr[id^="opener_"]');
-  const totalServers = serverRows.length;
-  document.getElementById('total-servers').textContent = totalServers;
-};
-</script>
-
-<style>
-  .animated-gradient {
-    display: inline;
-    background-image: linear-gradient(90deg, #ff0000, #000000, #ff0000, #000000, #ff0000, #000000, #000000, #ff0000, #000000);
-    background-size: 800% 100%;
-    -webkit-background-clip: text;
-    color: transparent;
-    animation: animateBg 14s linear infinite;
-  }
-
-  @keyframes animateBg {
-    0% { background-position: 100% 0%; }
-    100% { background-position: 0% 0%; }
-  }
-</style>
-
 <div class="margin-bottom">
   {include file='page_servers.tpl'}
 </div>

@@ -1,15 +1,15 @@
 :root {
-  --layout_main_code--color: 255, 0, 0;
+  --layout_main_code--color: #BA6F00;
   --layout_main--color: rgb(var(--layout_main_code--color));
   --layout_main--color_0_3: rgba(var(--layout_main_code--color), 0.3);
   --layout_main--color_0_15: rgba(var(--layout_main_code--color), 0.15);
   --container--width: 1630px;
   --header--height: 80px;
-  --theme-background: #edf0f4;
+  --theme-background: #1b1b1b00;
   --theme-text: #353c41;
   --theme-text_light: #464646;
   --theme-text_light-hover: #000;
-  --theme-link: var(--layout_main--color);
+  --theme-link: #00AFF4;
   --theme-area_background_light: #f7fafc;
   --border--radius: 25px;
   --box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.08);
@@ -18,7 +18,6 @@
   --backdrop-filter-value: blur(15px);
   --backdrop-background: rgba(255, 255, 255, 0.65);
   --backdrop-text_color: #000;
-  --input--shadow: rgba(44, 95, 140, 0.08);
   --input--border: rgba(113, 128, 150, 0.4);
   --input--border-focusShadow: var(--layout_main--color_0_3) 0px 0px 0px 4px;
   --input--desc: #6c757d;
@@ -72,6 +71,23 @@
   --size-6: 56px;
   --size-7: 72px;
   --size-8: 92px;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.sb-header,       /* or whatever your header wrapper is called */
+.sb-content,      /* main content container */
+.sb-footer {      /* footer wrapper */
+  position: relative;
+  z-index: 1;
 }
 
 * {
@@ -749,12 +765,12 @@ li.layout_box_title {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: var(--backdrop-background);
+  background-color: transparent;
   -webkit-backdrop-filter: var(--backdrop-filter-value);
-          backdrop-filter: var(--backdrop-filter-value);
+          backdrop-filter: none;
   color: var(--backdrop-text_color);
   -webkit-box-shadow: 0 0 40px 0 rgba(56, 55, 93, 0.3);
-          box-shadow: 0 0 40px 0 rgba(56, 55, 93, 0.3);
+          box-shadow: none;
   padding: 10px 0;
 }
 
@@ -1194,7 +1210,7 @@ li.layout_box_title {
   --button--background-hover: rgba(255, 255, 255, 0.08);
   --button-light: #22242f;
   --button-light-text: #fff;
-  --box--backgroundColor: #1b1b1b;
+  --box--backgroundColor: #1b1b1b00;
   --box-shadow: none;
   --box-shadow--child: 0 0 0 1px rgba(147, 161, 181, 0.2), 0 0 40px 0 transparent;
   --backdrop-background: rgba(19, 20, 27, 0.65);
@@ -1205,7 +1221,7 @@ li.layout_box_title {
 }
 
 [data-theme='dark'] .layout_topBar .layout_topBar_action li #user_action_change_dark i {
-  color: #ffe200;
+  color: #1b1b1b00;
 }
 
 .dbg.b {

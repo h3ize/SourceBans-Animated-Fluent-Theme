@@ -1,17 +1,8 @@
+
 <main>
   <div class="layout_topBar">
-    <div class="layout_container flex flex-jc:end flex-ai:center">
+    <div class="layout_container flex flex-jc:end flex-ai:center" style="background: transparent;">
       <ul class="SocialMedia layout_topBar_action flex">
-        <li>
-          <button id="user_action_change_dark" aria-label="Dark mode"><i class="fas fa-moon"></i></button>
-        </li>
-        <li class="jscolor_li">
-          <button data-jscolor aria-label="Color"></button>
-        </li>
-        <li id="jscolor_reset" class="jscolor_li" style="display: none;">
-          <button aria-label="Reset color"><i class="fa fa-refresh"></i></button>
-        </li>
-
 <!-- Remove the comments balise if you to enable some SocialMedia Icons -->
 
           <li class="responsive_show:desktop">

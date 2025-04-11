@@ -159,7 +159,7 @@ div.dialog-control {
     /*text-decoration:underline;*/
     border-bottom: #dadfe1 dotted 1px;
     padding: 8px 8px 4px;
-    background-color: rgba(108, 122, 137, 0.7);
+    background-color: transparent;
 }
 
 .tool-text {
@@ -185,11 +185,7 @@ div.dialog-control {
     background: url(../images/tooltip_sqr.png) top left;
 }
 
-.perm-text {
-    font-size: 11px;
-    padding: 4px 8px 8px;
-    background: url(../images/tooltip_sqr.png) bottom right;
-}
+
 
 .game {
     background-color: #8cc152;
