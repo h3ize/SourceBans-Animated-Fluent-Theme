@@ -11,29 +11,21 @@
         <li id="jscolor_reset" class="jscolor_li" style="display: none;">
           <button aria-label="Reset color"><i class="fa fa-refresh"></i></button>
         </li>
-        
+
 <!-- Remove the comments balise if you to enable some SocialMedia Icons -->
 
           <li class="responsive_show:desktop">
             <a target="_blank" href="https://heizemod.us" rel="noopener" data-ipstooltip="" _title="Visit the official heizemod website">
-               <img src="https://heizemod.us/blackcrown.png" alt="Heizemod Icon" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
+               <img src="https://heizemod.us/images/blackcrown.png" alt="Heizemod Icon" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
             </a>
           </li>
-
 
           <li class="responsive_show:desktop">
             <a target="_blank" href="https://steamcommunity.com/groups/heizeland" rel="noopener" title="Our Steam Group">
-              <i class="fab fa-steam-symbol"></i>
+              <img src="https://heizemod.us/images/steamicon.png" alt="Steam Icon" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
             </a>
           </li>
 
-
-          <li class="responsive_show:desktop">
-            <a target="_blank" href="https://stats.heizemod.us/hlstats.php" rel="noopener" data-ipstooltip="" _title="Game Stats">
-              <img src="https://heizemod.us/hlstatsicon.png" alt="Game Stats" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
-            </a>
-          </li>
-        
         <!--
           <li class="responsive_show:desktop">
             <a target="_blank" href="https://www.instagram.com/zuck/" rel="noopener" data-ipstooltip="" _title="Follow us on Instagram">
@@ -52,7 +44,7 @@
 
           <li class="responsive_show:desktop">
             <a target="_blank" href="https://discord.gg/heize" rel="noopener" data-ipstooltip="" _title="Join us on Discord">
-              <img src="https://heizemod.us/discordicon.png" alt="Join us on Discord" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
+              <img src="https://heizemod.us/images/discordicon.png" alt="Join us on Discord" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
             </a>
           </li>
 
@@ -66,7 +58,7 @@
 
           <li class="responsive_show:desktop">
             <a target="_blank" href="https://www.youtube.com/@spookynormal" rel="noopener" data-ipstooltip="" _title="Follow us on YouTube">
-              <img src="https://heizemod.us/youtubeicon.png" alt="Follow us on YouTube" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
+              <i class="fab fa-youtube"></i>
             </a>
           </li>
       </ul>
