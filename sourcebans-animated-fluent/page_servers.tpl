@@ -2,7 +2,7 @@
 	<div class="table table_box">
 		{if $IN_SERVERS_PAGE && $access_bans}
 		<div class="responsive_show:desktop" style="text-align:right; width:100%">
-			<small>Hint: Right-click on a player to open a context menu with options to kick, ban, or contact the player directly.</small>
+			<small> </small>
 		</div>
 		{/if}
 		<table>
@@ -69,3 +69,5 @@
 	InitAccordion('tr.opener', 'div.opener', 'mainwrapper');
 </script>
 {/if}
+
+

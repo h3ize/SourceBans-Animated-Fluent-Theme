@@ -1,22 +1,38 @@
-
 <main>
   <div class="layout_topBar">
-    <div class="layout_container flex flex-jc:end flex-ai:center" style="background: transparent;">
+    <div class="layout_container flex flex-jc:end flex-ai:center">
       <ul class="SocialMedia layout_topBar_action flex">
+        <li>
+          <button id="user_action_change_dark" aria-label="Dark mode"><i class="fas fa-moon"></i></button>
+        </li>
+        <li class="jscolor_li">
+          <button data-jscolor aria-label="Color"></button>
+        </li>
+        <li id="jscolor_reset" class="jscolor_li" style="display: none;">
+          <button aria-label="Reset color"><i class="fa fa-refresh"></i></button>
+        </li>
+        
 <!-- Remove the comments balise if you to enable some SocialMedia Icons -->
-
-          <li class="responsive_show:desktop">
-            <a target="_blank" href="https://heizemod.us" rel="noopener" data-ipstooltip="" _title="Visit the official heizemod website">
-               <img src="https://heizemod.us/images/blackcrown.png" alt="Heizemod Icon" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
-            </a>
-          </li>
-
           <li class="responsive_show:desktop">
             <a target="_blank" href="https://steamcommunity.com/groups/heizeland" rel="noopener" title="Our Steam Group">
-              <img src="https://heizemod.us/images/steamicon.png" alt="Steam Icon" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
+              <i class="fab fa-steam-symbol"></i>
             </a>
           </li>
 
+<li class="responsive_show:desktop">
+  <a target="_blank" href="https://heizemod.us" rel="noopener" data-ipstooltip="" _title="Visit the official heizemod website">
+    <img src="https://heizemod.us/images/blackcrown.png" alt="Heizemod Icon" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
+  </a>
+</li>
+
+        <!--
+          <li class="responsive_show:desktop">
+            <a target="_blank" href="https://twitter.com/aXen_1998" rel="noopener" data-ipstooltip="" _title="Follow us on Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        -->
+        
         <!--
           <li class="responsive_show:desktop">
             <a target="_blank" href="https://www.instagram.com/zuck/" rel="noopener" data-ipstooltip="" _title="Follow us on Instagram">
@@ -33,11 +49,13 @@
           </li>
         -->
 
+        <!--
           <li class="responsive_show:desktop">
-            <a target="_blank" href="https://discord.gg/heize" rel="noopener" data-ipstooltip="" _title="Join us on Discord">
-              <img src="https://heizemod.us/images/discordicon.png" alt="Join us on Discord" style="width: 28px; height: 28px; object-fit: contain; vertical-align: middle;">
+            <a target="_blank" href="https://discord.gg/XhByCBg" rel="noopener" data-ipstooltip="" _title="Join us on Discord">
+              <i class="fab fa-discord"></i>
             </a>
           </li>
+        -->
 
         <!--
           <li class="responsive_show:desktop">
@@ -47,11 +65,13 @@
           </li>
         -->
 
+        <!--
           <li class="responsive_show:desktop">
-            <a target="_blank" href="https://www.youtube.com/@spookynormal" rel="noopener" data-ipstooltip="" _title="Follow us on YouTube">
+            <a target="_blank" href="https://youtube.com/embed/dQw4w9WgXcQ?rel=0;&amp;autoplay=1" rel="noopener" data-ipstooltip="" _title="Follow us on YouTube">
               <i class="fab fa-youtube"></i>
             </a>
           </li>
+        -->
       </ul>
 
       <ul class="layout_topBar_userBar responsive_show:desktop flex flex-ai:center">

@@ -13,7 +13,7 @@
 
 <div class="layout_box margin-bottom">
   <div class="layout_box_title flex flex-jc:space-between flex-ai:center">
-    <h2><i class="fa-solid fa-face-angry"></i> Latest Added Bans</h2>
+    <h2></i> Latest Added Bans</h2>
     <span style="text-align: right;">Total bans: {$total_bans}</span>
   </div>
 
@@ -59,7 +59,7 @@
 <div class="flex flex-ai:start flex-jc:space-bwtween m:flex-fd:column">
   <div class="layout_box flex:11 margin-right margin-bottom">
     <div class="layout_box_title flex flex-jc:space-between flex-ai:center">
-      <h2><i class="fa-solid fa-volume-xmark"></i> Latest Added Comms Block</h2>
+      <h2></i> Latest Added Comms Block</h2>
       <span style="text-align: right;">Total Blocks: {$total_comms}</span>
     </div>
 
@@ -105,7 +105,7 @@
 
   <div class="layout_box flex:11 margin-bottom">
     <div class="layout_box_title flex flex-jc:space-between flex-ai:center">
-      <h2><i class="fa-solid fa-hand"></i> Latest Players Blocked</h2>
+      <h2></i> Latest Players Blocked</h2>
       <span style="text-align: right;">Total Stopped: {$total_blocked}</span>
     </div>
 
