@@ -48,14 +48,11 @@
             </a>
           </li>
         -->
-
-        <!--
           <li class="responsive_show:desktop">
-            <a target="_blank" href="https://discord.gg/XhByCBg" rel="noopener" data-ipstooltip="" _title="Join us on Discord">
+            <a target="_blank" href="https://discord.gg/heize" rel="noopener" data-ipstooltip="" _title="Join us on Discord">
               <i class="fab fa-discord"></i>
             </a>
           </li>
-        -->
 
         <!--
           <li class="responsive_show:desktop">
@@ -65,13 +62,11 @@
           </li>
         -->
 
-        <!--
           <li class="responsive_show:desktop">
-            <a target="_blank" href="https://youtube.com/embed/dQw4w9WgXcQ?rel=0;&amp;autoplay=1" rel="noopener" data-ipstooltip="" _title="Follow us on YouTube">
+            <a target="_blank" href="https://www.youtube.com/@spookynormal" rel="noopener" data-ipstooltip="" _title="Follow us on YouTube">
               <i class="fab fa-youtube"></i>
             </a>
           </li>
-        -->
       </ul>
 
       <ul class="layout_topBar_userBar responsive_show:desktop flex flex-ai:center">
